@@ -1,0 +1,23 @@
+*React Nedir?
+- Front-end framework'üdür.
+
+*React ilk facebook tarafından geliştirildi.
+
+*Javascript kodlarına bakmak için console;
+-node index.js 
+-node index 
+
+* Ya da
+ "scripts": {
+    "start": "node index"
+  },
+Bu şekilde package.json dosyama tanımladıktan sonra console'a npm start yazmam yeterli
+
+*console'u temizlemek için;
+-cls 
+
+*slugify
+npm i slugify
+
+
+*package.json = ayar yaptığım dosya
