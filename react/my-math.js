@@ -2,6 +2,9 @@
 // Hepsini dışarıya çıkarmak için export'u başına eklerim. O zaman defaul function olmaz
 export const sum = (a,b) => a + b;
 export const diff = (a,b) => a - b;
+const write = (msg) => console.log(msg);
+
+export default write; // diğerleri dışarıya normal çıkarken bunu default olarakda çıkarabilirm 
 
 // Başlarına export yazmak yerine ;
 // export {sum , diff} = şeklinde de kullanabilirm 
