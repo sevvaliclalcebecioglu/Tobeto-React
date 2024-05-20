@@ -4,6 +4,23 @@ export const sum = (a,b) => a + b;
 export const diff = (a,b) => a - b;
 const write = (msg) => console.log(msg);
 
+// Başka değişken türlerinide dışarıya aktarabiliyoruz
+
+// Mesela string var. Tabiki dışarı aktarmak için başına export ekleriz
+export const str = "Hello Tobeto!";
+
+// Number;
+export const num = 21;
+
+// Obje;
+export const obj = {
+  category: 'abc',
+  order: 30
+};
+
+// Array;
+export const ary = ["Apple","Orange","Banana"];
+
 export default write; // diğerleri dışarıya normal çıkarken bunu default olarakda çıkarabilirm 
 
 // Başlarına export yazmak yerine ;
