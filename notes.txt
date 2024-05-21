@@ -21,3 +21,7 @@ npm i slugify
 
 
 *package.json = ayar yaptığım dosya
+
+*Hangi dosyayı start edeceksem , package json dosyasına gidip start kısmına o dosyayı eklemem lazım.
+
+*console da ctrl+c komutu console'u durdurma komutudur.
