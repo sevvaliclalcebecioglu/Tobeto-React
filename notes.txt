@@ -29,4 +29,6 @@ npm i slugify
 *npm i -g create-react-app
 *>npx create-react-app my-app
 
+** Uygulamayı ayağa kaldırmak içinde my-app'i terminalde açıp npm start demem yeterli.
+
 *ctrl+c => ayakta olan uygulamamızı durdurur.
