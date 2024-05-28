@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
 import Header from './components/header';
 
 function App() {
@@ -22,14 +23,14 @@ function App() {
     </div> */
 
    
-    <div>
+    <React.Fragment>
       <Header />
-      <p>Hello World!</p>  
-      <Header />
-      <p>Hello World!</p>  
-      <Header />
-      <p>Hello World!</p>  
-    </div>
+      <p className="App">Hello Tobeto</p>
+      <label htmlFor="myİnput">
+          Name 
+          <input id='myİnput' />
+      </label>
+    </React.Fragment>
 
   );
 }
