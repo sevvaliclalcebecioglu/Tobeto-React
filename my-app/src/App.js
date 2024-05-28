@@ -4,11 +4,30 @@ import React from "react";
 import Header from './components/header';
 import Variables from './components/variables';
 import Props from './components/props';
+import Loops from './components/loop';
 
 const _info = {
     title:  "Lorem, ipsum dolor.",
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, omnis."
 };
+
+const users = [
+  {
+    name: "Vefa Numan",
+    username: "Tozan",
+    company: "xxxx"
+  },
+  {
+    name: "Ömer Selim",
+    username: "Ceylan",
+    company: "xxxx"
+  },
+  {
+    name: "Ahmet Baha",
+    username: "Tozan",
+    company: "xxxx"
+  }
+]
 
 function App() {
   return (
@@ -41,7 +60,10 @@ function App() {
 
     <div>
       {/*<Variables />*/}
-      <Props name="İclal" surname={"Cebecioğlu"} Age={21} developer={true} info={_info} />
+      {/* <Props name="İclal" surname={"Cebecioğlu"} Age={21} developer={true} info={_info} /> */}
+      <Loops users={users} />
+
+
     </div>
 
   );
