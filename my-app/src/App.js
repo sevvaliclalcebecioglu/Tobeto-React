@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import Header from './components/header';
+import Variables from './components/variables';
 
 function App() {
   return (
@@ -23,14 +24,18 @@ function App() {
     </div> */
 
    
-    <React.Fragment>
+    /* <React.Fragment>
       <Header />
       <p className="App">Hello Tobeto</p>
       <label htmlFor="myİnput">
           Name 
           <input id='myİnput' />
       </label>
-    </React.Fragment>
+    </React.Fragment> */
+
+    <div>
+      <Variables />
+    </div>
 
   );
 }
