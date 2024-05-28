@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node async_await.js"
+    "start": "node promises.js"
   },
   "author": "",
   "license": "ISC",
