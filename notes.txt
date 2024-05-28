@@ -25,3 +25,8 @@ npm i slugify
 *Hangi dosyayı start edeceksem , package json dosyasına gidip start kısmına o dosyayı eklemem lazım.
 
 *console da ctrl+c komutu console'u durdurma komutudur.
+
+*npm i -g create-react-app
+*>npx create-react-app my-app
+
+*ctrl+c => ayakta olan uygulamamızı durdurur.
