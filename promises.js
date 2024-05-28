@@ -59,9 +59,44 @@ async function f() {
         resolve(result);
     });    
 
-    console.log(await promises1);
-    console.log(await promises2);
-    console.log(await promises3);
+   //1.yazım şekli
+   //
+   // console.log(await promises1);
+   // console.log(await promises2);
+   // console.log(await promises3);
+
+   //2.yazım şekli
+   //
+   // promises bittiğinde şu fonksiyonu çalıştır;
+  /* promises1.then((val) => {
+        console.log(val);
+        
+        promises2.then((val2) => {
+            console.log(val2);
+
+            promises3.then((val3) => console.log(val3));
+        });
+
+   }); */
+
+   //3.yazım şekli
+   //
+   /* promises1.then((val) => {
+    console.log(val);
+    return promises2;
+   }).then((val2) => {
+    console.log(val2);
+    return promises3;
+   }).then((val3) => console.log(val3)); */
+
+
+   //4.yazım şekli
+   //
+   //promiseAll() => verdiklerimizi sırasıyla çalıştırır.
+   Promise.all([promises1, promises2, promises3])
+        .then((result) => {
+            result.map((item) => console.log(item));
+        });
 
 }
 
