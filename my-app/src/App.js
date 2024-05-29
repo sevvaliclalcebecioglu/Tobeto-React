@@ -6,6 +6,7 @@ import Variables from './components/variables';
 import Props from './components/props';
 import Loops from './components/loop';
 import UserDetail from './components/UserDetail';
+import UsingState from './components/UsingState';
 
 const _info = {
     title:  "Lorem, ipsum dolor.",
@@ -63,7 +64,8 @@ function App() {
       {/*<Variables />*/}
       {/* <Props name="İclal" surname={"Cebecioğlu"} Age={21} developer={true} info={_info} /> */}
       {/*<Loops users={users} /> */}
-      <UserDetail name={"İclal Cebecioğlu"} age={21} hobies={["book", "guitar", "coding"]} address={{detail:"adresim", zipcode:80090}} />
+      {/*<UserDetail name={"İclal Cebecioğlu"} age={21} hobies={["book", "guitar", "coding"]} address={{detail:"adresim", zipcode:80090}} />*/}
+      <UsingState />
 
 
     </div>
