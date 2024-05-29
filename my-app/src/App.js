@@ -8,6 +8,7 @@ import Loops from './components/loop';
 import UserDetail from './components/UserDetail';
 import UsingState from './components/UsingState';
 import ArrayState from './components/ArrayState';
+import StateObject from './components/StateObject';
 
 const _info = {
     title:  "Lorem, ipsum dolor.",
@@ -67,7 +68,8 @@ function App() {
       {/*<Loops users={users} /> */}
       {/*<UserDetail name={"İclal Cebecioğlu"} age={21} hobies={["book", "guitar", "coding"]} address={{detail:"adresim", zipcode:80090}} />*/}
       {/*<UsingState />*/}
-      <ArrayState />
+      {/*<ArrayState />*/}
+      <StateObject />
 
 
     </div>
