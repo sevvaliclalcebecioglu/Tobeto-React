@@ -10,6 +10,7 @@ import UsingState from './components/UsingState';
 import ArrayState from './components/ArrayState';
 import StateObject from './components/StateObject';
 import StateInput from './components/StateInput';
+import UsingUseEfect from './components/UsingUseEfect';
 
 const _info = {
     title:  "Lorem, ipsum dolor.",
@@ -71,7 +72,8 @@ function App() {
       {/*<UsingState />*/}
       {/*<ArrayState />*/}
       {/*<StateObject />*/}
-      <StateInput />
+      {/*<StateInput />*/}
+      <UsingUseEfect />
 
 
     </div>
